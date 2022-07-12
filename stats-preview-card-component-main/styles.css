@@ -23,7 +23,6 @@ body {
   justify-content: center;
   height: 100vh;
   background-color: hsl(233, 47%, 7%);
-  flex-wrap: wrap;
 }
 
 .card {
