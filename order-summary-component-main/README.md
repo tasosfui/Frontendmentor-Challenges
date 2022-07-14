@@ -4,7 +4,7 @@
 
 ## Challenge Link :
 
-https://www.frontendmentor.io/solutions/order-summary-component-Rcn7H71TMP
+https://www.frontendmentor.io/solutions/order-summary-component-NYdGkO34um
 
 ## Live solution :
 
