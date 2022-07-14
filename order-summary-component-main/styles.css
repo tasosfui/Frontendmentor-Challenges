@@ -83,6 +83,7 @@ body {
 
 .card__plan a {
   font-size: 1.4rem;
+  font-weight: 700;
   color: hsl(245, 75%, 52%);
 }
 
