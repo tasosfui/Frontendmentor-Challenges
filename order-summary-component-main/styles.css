@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.6rem;
+}
+
+.section-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card {
+  height: 63rem;
+  width: 40.6rem;
+  border-radius: 1.5rem;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0px 10px 50px -25px rgba(0, 0, 0, 0.5);
+}
+
+.card__image {
+  margin-bottom: 3rem;
+}
+
+.card__image img {
+  width: 100%;
+}
+
+.card__content {
+  padding: 0 4.3rem 4.3rem 4.3rem;
+}
+
+.card__heading {
+  font-size: 2.6rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.card__paragraph {
+  font-weight: 500;
+  line-height: 1.6;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 2rem;
+}
+
+.card__plan {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.card__plan img {
+  margin-right: 2rem;
+}
+
+.card__plan a {
+  font-size: 1.3rem;
+  color: hsl(245, 75%, 52%);
+}
+
+.card__plan a:hover {
+  text-decoration: none;
+  font-weight: 700;
+  color: hsl(245, 83%, 68%);
+}
+
+.annual {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.annual__heading {
+  color: hsl(223, 47%, 23%);
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 0.3rem;
+}
+
+.annual__price {
+  color: hsl(224, 23%, 55%);
+}
+
+.annual__link {
+  margin-left: auto;
+  text-transform: capitalize;
+}
+
+.btn {
+  width: 100%;
+  padding: 1.5rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.btn:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.btn-proceed {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 700;
+  box-shadow: 0px 12px 10px -10px rgba(38, 0, 255, 0.5);
+}
+
+.btn-proceed:hover {
+  background-color: hsl(245, 83%, 68%);
+}
+
+.btn-cancel {
+  background-color: white;
+  font-weight: 700;
+  color: gray;
+}
+
+.btn-cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 600px) {
+  .section-center {
+    background-image: url(./images/pattern-background-mobile.svg);
+  }
+
+  .card {
+    width: 32.7rem;
+    height: 56.7rem;
+  }
+
+  .card__content {
+    padding: 0 2.4rem 2.4rem 2.4rem;
+  }
+}
