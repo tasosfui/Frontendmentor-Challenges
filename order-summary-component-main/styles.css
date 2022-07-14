@@ -144,7 +144,7 @@ body {
 .btn-cancel {
   background-color: white;
   font-weight: 700;
-  color: gray;
+  color: hsl(224, 23%, 55%);
 }
 
 .btn-cancel:hover {
