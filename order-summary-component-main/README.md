@@ -4,8 +4,8 @@
 
 ## Challenge Link :
 
-https://www.frontendmentor.io/solutions/stats-preview-card-component-V0RsL_-MYv
+https://www.frontendmentor.io/solutions/order-summary-component-Rcn7H71TMP
 
 ## Live solution :
 
-https://tasosfui.github.io/Frontendmentor-Challenges/stats-preview-card-component-main/
+https://tasosfui.github.io/Frontendmentor-Challenges/order-summary-component-main/
