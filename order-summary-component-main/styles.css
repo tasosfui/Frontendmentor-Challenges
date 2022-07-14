@@ -157,17 +157,4 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width: 600px) {
-  .section-center {
-    background-image: url(./images/pattern-background-mobile.svg);
-  }
 
-  .card {
-    width: 32.7rem;
-    height: 56.7rem;
-  }
-
-  .card__content {
-    padding: 0 2.4rem 2.4rem 2.4rem;
-  }
-}
