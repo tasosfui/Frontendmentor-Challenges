@@ -2,10 +2,10 @@
 
 ## Challenge Link :
 
-https://www.frontendmentor.io/solutions/product-preview-card-component-flexbox-SS3Pxwjlt2
+https://www.frontendmentor.io/solutions/product-preview-card-component-HFyPyKk-kc
 
 ## Live solution :
 
-https://tasosfui.github.io/frontendmentor-product-card-1/
+https://tasosfui.github.io/Frontendmentor-Challenges/product-preview-card-component/
 
 
