@@ -32,6 +32,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-color: var(--clr-light-gray);
+  margin-top: 4.2rem
 }
 
 .services-center {
