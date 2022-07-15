@@ -31,6 +31,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  min-height: 100vh;
   background-color: var(--clr-light-gray);
 }
 
@@ -134,7 +135,6 @@ body {
 @media screen and (max-width: 1024px) {
   .section-center {
     padding: 2rem;
-    min-height: 100vh;
   }
 
   .services-center {
