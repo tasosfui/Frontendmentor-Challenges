@@ -38,12 +38,12 @@ body {
 
 .card__info {
   width: 50%;
-  padding: 1.875rem 2rem;
+  padding: 2rem 2rem;
 }
 
 .info__category {
   text-transform: uppercase;
-  margin-bottom: 1.438rem;
+  margin-bottom: 1.4rem;
   font-size: 0.75rem;
   letter-spacing: 0.375rem;
   font-weight: lighter;
@@ -52,16 +52,16 @@ body {
 .info__name {
   font-family: "Fraunces", serif;
   font-size: 1.875rem;
-  margin-bottom: 1.813rem;
-  line-height: 1;
+  margin-bottom: 1.3rem;
+  line-height: 1.07;
 }
 
 .info__description {
   font-size: 0.813rem;
   color: hsl(228, 12%, 48%);
   font-weight: 500;
-  line-height: 1.6;
-  margin-bottom: 2rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
 }
 
 .info__price {
@@ -87,7 +87,7 @@ body {
 .info__btn {
   background-color: hsl(158, 36%, 37%);
   text-align: center;
-  padding: 1rem;
+  padding: 0.93rem;
   width: 100%;
   border-radius: 0.625rem;
   cursor: pointer;
@@ -125,12 +125,12 @@ body {
   .card {
     flex-direction: column;
     width: 21.55rem;
-    height: 40rem;
+    height: 38rem;
   }
 
   .card__img {
     width: 100%;
-    height: 40%;
+    height: 39.4%;
   }
 
   .card__info {
@@ -144,14 +144,14 @@ body {
   }
 
   .info__name {
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.9rem;
   }
 
   .info__description {
-    margin-bottom: 3.125rem;
+    margin-bottom: 2.7rem;
   }
 
   .info__price {
-    margin-bottom: 0.938rem;
+    margin-bottom: 1rem;
   }
 }
