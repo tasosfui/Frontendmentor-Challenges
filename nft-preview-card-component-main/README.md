@@ -5,3 +5,5 @@
 ## Challenge Link :
 
 ## Live solution :
+
+https://tasosfui.github.io/Frontendmentor-Challenges/nft-preview-card-component-main/
