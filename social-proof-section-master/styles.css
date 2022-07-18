@@ -39,16 +39,13 @@ body {
 .section-center {
   max-width: 110rem;
   margin: 0 auto;
-  /* background-color: rgba(153, 205, 50, 0.377); */
-  height: 100vh; /*remove it*/
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .section__intro {
-  /* padding-top: 12rem; */
   display: flex;
   margin-bottom: 7rem;
   margin-top: 2rem;
@@ -197,4 +194,120 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 1180px) {
+  html {
+    font-size: 59%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 56%;
+  }
+
+  .section-center {
+    padding: 0 2rem 0 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .section-center {
+    max-width: 32.7rem;
+    padding: 6rem 1rem 6rem 1rem;
+  }
+
+  .section__intro {
+    flex-direction: column;
+  }
+
+  .section__intro-right {
+    padding-left: 0rem;
+    padding-top: 0.9rem;
+  }
+
+  .section__heading {
+    width: 100%;
+    font-size: 3.8rem;
+    text-align: center;
+    margin: 0 auto 2.2rem auto;
+    text-align: center;
+  }
+
+  .section__paragraph {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2.9rem;
+    margin: 0 auto 2.9rem auto;
+  }
+
+  .section__intro-right {
+    width: 100%;
+  }
+
+  .section__ratings {
+    flex-direction: column;
+    padding: 1.6rem 3.2rem;
+    width: 100%;
+    margin-bottom: 0rem;
+  }
+
+  .section__ratings:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+
+  .section__ratings--reviews {
+    align-self: center;
+  }
+
+  .section__ratings--guru {
+    align-self: center;
+  }
+
+  .section__ratings--besttech {
+    align-self: center;
+  }
+
+  .section__rating {
+    text-align: center;
+  }
+
+  .section__stars {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+
+  .section__testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  .testimonial {
+    padding: 4.1rem 3rem;
+    flex: 0 0 100%;
+    margin-bottom: 1.6rem;
+    width: 100%;
+  }
+
+  .testimonial:not(:last-child) {
+    margin-right: 0rem;
+  }
+
+  .testimonial--colton {
+    align-self: center;
+  }
+
+  .testimonial--irene {
+    align-self: center;
+  }
+
+  .testimonial--anne {
+    align-self: center;
+  }
 }
