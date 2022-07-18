@@ -4,7 +4,7 @@
 
 ## Challenge Link :
 
-will add soon
+https://www.frontendmentor.io/solutions/social-proof-section-tPrkr_50cL
 
 ## Live solution :
 
