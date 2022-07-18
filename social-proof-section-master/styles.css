@@ -131,7 +131,7 @@ body {
   background-color: var(--clr-dark-magenda);
   border-radius: 1rem;
   padding: 4.1rem 3rem;
-  flex: 0 0 33, 7%;
+  
 }
 
 .testimonial:not(:last-child) {
