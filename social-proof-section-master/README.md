@@ -8,4 +8,4 @@ https://www.frontendmentor.io/solutions/social-proof-section-tPrkr_50cL
 
 ## Live solution :
 
-https://tasosfui.github.io/Frontendmentor-Challenges/social-proof-section-master/
+https://tasosfui.github.io/Frontendmentor-Challenges/huddle-landing-page-with-curved-sections-master/
