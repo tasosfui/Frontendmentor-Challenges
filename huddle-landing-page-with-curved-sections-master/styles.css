@@ -146,6 +146,10 @@ body {
 
 /* end of hero section */
 
+.first {
+  margin-top: 7rem;
+}
+
 .row-top--first img {
   width: 100%;
   display: block;
