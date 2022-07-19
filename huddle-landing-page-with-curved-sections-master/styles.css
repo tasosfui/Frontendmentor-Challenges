@@ -154,6 +154,7 @@ body {
 .row-center {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 0 auto;
   max-width: 144rem;
   padding: 1rem 13rem 1rem 13rem;
@@ -196,7 +197,7 @@ body {
 /* SECOND RAW */
 
 .row-center--second {
-  padding: 10rem 13rem 10rem 13rem;
+  padding: 15rem 13rem 15rem 13rem;
 }
 
 .row__left--second img {
@@ -213,6 +214,54 @@ body {
 }
 
 /* END OF SECOND RAW */
+
+/* THIRD ROW */
+.row-top--third img {
+  width: 100%;
+  display: block;
+}
+
+.row-bottom--third img {
+  width: 100%;
+  display: block;
+}
+/* END OF THIRD ROW */
+
+/* FOURTH ROW */
+.row-center--fourth {
+  padding: 8.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-center--fourth h2 {
+  margin-bottom: 3.7rem;
+}
+/* END OF FOURTH ROW */
+
+/* FOOTER */
+
+.footer-top img {
+  width: 100%;
+  display: block;
+}
+
+.footer-center--blue {
+  background-color: var(--clr-dark-cyan);
+}
+
+.footer-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 144rem;
+}
+
+.footer__logo {
+  fill: red;
+  color: red;
+  background-color: red;
+}
 
 .attribution {
   font-size: 11px;
