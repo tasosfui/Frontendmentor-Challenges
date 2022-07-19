@@ -4,7 +4,7 @@
 
 ## Challenge Link :
 
------
+https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-dUR2IgheHn
 
 ## Live solution :
 
