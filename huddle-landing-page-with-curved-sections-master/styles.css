@@ -233,9 +233,10 @@ body {
 
 /* FOURTH ROW */
 .row-center--fourth {
-  padding: 14rem;
+  padding: 15rem 0 10rem 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .row-center--fourth h2 {
