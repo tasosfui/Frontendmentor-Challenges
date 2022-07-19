@@ -233,7 +233,7 @@ body {
 
 /* FOURTH ROW */
 .row-center--fourth {
-  padding: 8.5rem;
+  padding: 14rem;
   display: flex;
   flex-direction: column;
 }
@@ -258,9 +258,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 7.5rem 0rem 15rem 30rem;
+  padding: 7.5rem 0rem 15rem 12rem;
   max-width: 144rem;
   margin: 0 auto;
+  border-left: 1px solid yellowgreen;
 }
 
 .footer__logo {
