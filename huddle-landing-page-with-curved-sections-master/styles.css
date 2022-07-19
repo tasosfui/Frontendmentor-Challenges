@@ -400,8 +400,51 @@ body {
   }
 }
 
+@media screen and (max-width: 1100px) {
+  .hero__image {
+    width: 90rem;
+  }
+}
+
 @media screen and (max-width: 1000px) {
-  html {
-    font-size: 50%;
+  .hero__heading {
+    font-size: 4.2rem;
+  }
+
+  .row-center {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 144rem;
+    /* padding: 5rem 13.5rem 5rem 13.5rem; */
+  }
+
+  .row__heading {
+    text-align: center;
+  }
+
+  .row__paragraph {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .row__right img {
+    height: 40rem;
+    margin-left: 0;
+    margin-bottom: 3rem;
+  }
+
+  .row__right--second {
+    margin-left: 0;
+  }
+
+  .row__right--second p {
+    margin-bottom: 3.5rem;
+  }
+
+  .footer__left p {
+    max-width: 90%;
   }
 }
