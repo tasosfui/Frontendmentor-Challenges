@@ -2,7 +2,7 @@
 
 ## Challenge Link :
 
-https://www.frontendmentor.io/solutions/product-preview-card-component-HFyPyKk-kc
+https://www.frontendmentor.io/solutions/product-preview-card-component-tvT-ElemWC
 
 ## Live solution :
 
