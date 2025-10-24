@@ -5,7 +5,7 @@
   --clr-light-pink: hsl(321, 100%, 78%);
   --clr-light-red: hsl(0, 100%, 63%);
   --clr-dark-cyan: hsl(192, 100%, 9%);
-  --clr-pale-blue: hsl(207, 100%, 98%);
+  --clr-pale-blue: hsl(200, 100%, 98%);
   --clr-white: #fff;
 }
 
@@ -560,3 +560,4 @@ body {
     width: 30rem;
   }
 }
+
